@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrilliNet- Innovation Starts Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/brain.png" class="logo">
+           <!---- <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/Message.png"></li>
+            </ul> ---->
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+                <img src="images/brain.png">
+            </div>
+        </div>
+        
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/brain.png">
+                    <div>
+                        <p>John Doe</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/settings.png" class="settings-icon">
+                    <a href="#">Settings and privacy</a>
+                </div>
+
+    
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/Message.png">Chat</a>
+                <a href="#"><img src="images/groups.png">Groups</a>
+                <a href="#"><img src="images/notification.png">Notifications</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/website.png">Website</a>
+                <a href="#"><img src="images/stats.png">Statistics</a>
+                <a href="#"><img src="images/earth.png">Explore</a>
+                <a href="#"><img src="images/hints.png">Help</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/brain.png">
+                    <div>
+                        <p>John Doe</p>
+                        <small>Public<i class="fas fa-caret-down"></i></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, john?"></textarea>
+                </div>
+            </div>
+
+            <div class="fun-video">
+                <div class="user-profile">
+                    <img src="images/brain.png">
+                    <div>
+                        <p>John Doe</p>
+                        <span>Jan 27 2025 11:30 am</span>
+                    </div>
+                </div>
+                <video width="420" height="240" controls>
+                    <source src="Video.mp4" type="Video/mp4">
+                </video>
+        
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="images/brain.png">
+                    <div>
+                        <p>John Doe</p>
+                        <span>Jan 27 2025 11:30 am</span>
+                    </div>
+                </div>
+                <p class="post-text">Hello World! <span> @matt1234</span><a href="#"> #Testing</a></p>
+                <img src="images/business2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <!-- Use an element to toggle between a like/dislike icon -->
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                    </div>
+                    <div class="post-profile-icon">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="load-more">Load More</button>
+
+        </div>
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class = "all-chats">
+                <h4>Chats</h4>
+                <a href=""></a>
+                <a href="#">See All</a>
+            </div>
+            <div class = "group-chats">
+                <h4>Group Chats</h4>
+                <a href=""></a>
+                <a href="#">See All</a>
+            </div>
+            <div class="Ads">
+                <h4>Advertisements</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/business.png" class="sidebar-ads">
+            <div class="book-now">
+                <h4>Book An Appointment</h4>
+                <button type="button">Schedule Now</button>
+            </div>
+
+        </div>
+    </div>
+
+<div class="footer">
+    <p>Copyright 2025</p>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
