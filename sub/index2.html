@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-1">
+            <img src="images/brain.png" class="logo">
+            <ul>
+                <li>Get the most out of our CRM.</li>
+                <li>Take your brilliance to a whole new level.</li>
+                <li>Sign Up Today.</li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h2>Our Plans</h2>
+            <form method="get" action="../payment/indexfree.html">
+                <label for="free">
+                    <input type="radio" name="plans" id="free" required />
+                    <span>free <small>one week</small></span> 
+                </label>
+            </form>
+            <form method="get" action="../payment/index35.html">
+                <label for="paid">
+                    <input type="radio" name="plans" id="paid" required />
+                    <span>$35 <small>/month</small></span>
+                </label>
+            </form>
+            <form method="get" action="../payment/index45.html">
+                <label for="premium">
+                    <input type="radio" name="plans" id="premium" required />
+                    <span>$45 <small>/month</small></span>
+                </label>
+            </form>
+                <br>
+                <p>Your Name</p>
+                <input type="text" placeholder="Enter Your Name" required />
+                <p>Email Address</p>
+                <input type="email" placeholder="Enter Your Email" required />
+                <button type = "submit">Subscribe</button>
+            
+        </div>
+    </div>
+</body>
+</html>

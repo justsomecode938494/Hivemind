@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: #800080;
+    transition: background 0.3s;
+}
+
+.logo{
+    width: 160px;
+    margin-right: 85px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #800080;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #800080;
+    padding: 5px 5%;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #fff;
+    width: fit-content;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+  
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+  
+.content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+}
+  
+.sign-up {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+.sign-up-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  
+.sign-up-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+  
+.sign-up-button:active {
+    transform: translateY(1px);
+}
+  
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+  
+  /* Responsive Design */
+@media (max-width: 768px) {
+main {
+    flex-direction: column;
+}
+  
+.sidebar {
+    width: 100%;
+    margin-top: 20px;
+    }
+}
+  
+@media (max-width: 480px) {
+header {
+    text-align: left;
+    padding: 10px;
+}
+  
+header nav ul li {
+    display: block;
+    margin: 5px 0;
+}
+  
+.content, .sidebar {
+    padding: 10px;
+    }
+}
+
+
+header nav ul .dropdown {
+    display: none; /* Hide the dropdown by default */
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    top: 100%; /* Position it just below the parent menu item */
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  
+  header nav ul li:hover .dropdown {
+    display: block; /* Show the dropdown when the parent is hovered */
+  }
+  
+  header nav ul .dropdown li {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  header nav ul .dropdown li a {
+    padding: 10px 15px;
+    background-color: #444;
+    display: block;
+  }
+  
+  header nav ul .dropdown li a:hover {
+    background-color: #666;
+  }
+
+  @media (max-width: 768px) {
+    header nav ul li {
+      display: block; /* Stack items vertically on smaller screens */
+      margin: 5px 0;
+    }
+  }
